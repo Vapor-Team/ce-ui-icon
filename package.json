@@ -1,6 +1,6 @@
 {
   "name": "@vapor-team/iconfont",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.2-alpha.1",
   "description": "ce-ui iconfont component style.",
   "main": "lib/iconfont.min.js",
   "css": "lib/index.css",
@@ -17,11 +17,11 @@
     "node": ">= 8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/Vapor-team/iconfont"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vapor-Team/iconfont.git"
+    "url": "https://github.com/Vapor-Team/iconfont"
   },
   "license": "MIT",
   "devDependencies": {
