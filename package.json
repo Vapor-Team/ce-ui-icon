@@ -1,11 +1,11 @@
 {
-  "name": "@ce-ui/icon",
+  "name": "@ce-ui/iconfont",
   "version": "0.0.1",
-  "description": "ce-ui icon component style.",
+  "description": "ce-ui iconfont component style.",
   "main": "lib/iconfont.min.js",
   "css": "lib/index.css",
   "keywords": [
-    "@ce-ui/icon"
+    "@ce-ui/iconfont"
   ],
   "scripts": {
     "created": "gulp build --gulpfile iconfont.js",
@@ -17,11 +17,11 @@
     "node": ">= 8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ce-ui"
+    "registry": "https://npm.pkg.github.com/Vapor-Team/ce-ui"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vapor-Team/ce-ui-icon"
+    "url": "https://github.com/Vapor-Team/iconfont"
   },
   "license": "MIT",
   "devDependencies": {
