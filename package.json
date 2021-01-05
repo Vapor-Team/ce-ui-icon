@@ -1,6 +1,6 @@
 {
   "name": "@ce-ui/iconfont",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "ce-ui iconfont component style.",
   "main": "lib/iconfont.min.js",
   "css": "lib/index.css",
