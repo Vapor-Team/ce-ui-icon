@@ -12,7 +12,7 @@
     "build": "gulp build --gulpfile gulpfile.js",
     "dev": "gulp --gulpfile icon-dev.js"
   },
-  "author": "ce-ui",
+  "author": "Vapor-Team",
   "engines": {
     "node": ">= 8"
   },
