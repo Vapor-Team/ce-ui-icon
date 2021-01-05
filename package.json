@@ -8,8 +8,9 @@
     "@ce-ui/icon"
   ],
   "scripts": {
-    "iconfont": "gulp --gulpfile iconfont.js",
-    "style": "gulp --gulpfile gulpfile.js"
+    "created": "gulp build --gulpfile iconfont.js",
+    "build": "gulp build --gulpfile gulpfile.js",
+    "dev": "gulp --gulpfile icon-dev.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -29,6 +30,7 @@
     "postcss-nested": "^4.2.3",
     "postcss-preset-env": "^6.7.0",
     "postcss-px-to-viewport": "^1.1.1",
-    "postcss-px2units": "^0.2.0"
+    "postcss-px2units": "^0.2.0",
+    "cssnano": "^4.1.10"
   }
 }

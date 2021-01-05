@@ -2,7 +2,7 @@
  * @Author: Mark
  * @Date: 2020-07-12 19:40:06
  * @LastEditors: Mark
- * @LastEditTime: 2021-01-05 13:19:12
+ * @LastEditTime: 2021-01-05 13:40:26
  * @Description: gulp-iconfont
  */
 const gulp = require('gulp')
@@ -115,10 +115,5 @@ const watch = {
     return gulp.watch('./src/svg/**/*.svg', compile.svgToFonts)
   }
 }
-
+// 执行build命令
 exports.build = gulp.parallel(compile.svgToFonts, compile.svgToSymbol)
-exports.default = gulp.series(
-  compile.svgToFonts,
-  compile.svgToSymbol,
-  // gulp.parallel(watch.symbol, watch.iconFonts)
-)
