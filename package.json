@@ -17,7 +17,7 @@
     "node": ">= 8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Vapor-team/iconfont"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
