@@ -17,9 +17,12 @@
     "node": ">= 8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Vapor-Team/ce-ui"
+    "registry": "https://npm.pkg.github.com/ce-ui"
   },
-  "repository": "https://github.com/Vapor-Team/ce-ui-icon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vapor-Team/ce-ui-icon"
+  },
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
