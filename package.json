@@ -12,6 +12,14 @@
     "build": "gulp build --gulpfile gulpfile.js",
     "dev": "gulp --gulpfile icon-dev.js"
   },
+  "author": "ce-ui",
+  "engines": {
+    "node": ">= 8"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ce-ui"
+  },
+  "repository": "https://github.com/Vapor-Team/ce-ui-icon",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
