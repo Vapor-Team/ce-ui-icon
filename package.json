@@ -4,7 +4,7 @@
   "description": "ce-ui iconfont component style.",
   "main": "lib/iconfont.min.js",
   "files": [
-    "lib/iconfont.min.js"
+    "lib"
   ],
   "keywords": [
     "@ce-ui/iconfont"
